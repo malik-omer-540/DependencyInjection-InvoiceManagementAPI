@@ -14,7 +14,7 @@ This API accepts invoice creation requests and sends a notification to the custo
 
 ## 🔥 Without Dependency Injection
 
-`POST /api/bad/invoice`
+`POST /api/BadInvoice`
 
 - Services are instantiated manually inside the controller.
 - Tightly coupled code: harder to test, change, or extend.
@@ -24,7 +24,7 @@ This API accepts invoice creation requests and sends a notification to the custo
 
 ## ✅ With Dependency Injection
 
-`POST /api/good/invoice`
+`POST /api/GoodInvoice`
 
 - Follows **Constructor Injection** via Interfaces.
 - Improves flexibility: `INotificationService` can be replaced with `SmsNotificationService`, `MockNotificationService`, etc.
