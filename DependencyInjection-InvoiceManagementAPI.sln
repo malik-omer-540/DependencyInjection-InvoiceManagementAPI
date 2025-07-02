@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection-InvoiceManagementAPI", "DependencyInjection-InvoiceManagementAPI\DependencyInjection-InvoiceManagementAPI.csproj", "{70A28438-9BE3-4D47-8F6E-63070C109EE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70A28438-9BE3-4D47-8F6E-63070C109EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A28438-9BE3-4D47-8F6E-63070C109EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A28438-9BE3-4D47-8F6E-63070C109EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A28438-9BE3-4D47-8F6E-63070C109EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19DC8227-FD32-49EE-A05E-77E84C390E04}
+	EndGlobalSection
+EndGlobal
